@@ -1,0 +1,62 @@
+/* Mixins */
+/* fonts */
+@mixin heading-xl {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 70px;
+  color: #13183f;
+}
+@mixin heading-l {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 51px;
+  color: #13183f;
+}
+@mixin heading-m {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  color: #13183f;
+}
+@mixin heading-s {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28px;
+  color: #13183f;
+}
+@mixin body-m {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #83869a;
+}
+@mixin body-sr {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #83869a;
+}
+@mixin body-sb {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #83869a;
+}
+
+/* buttons */
+
+@mixin button {
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+/* Gradient background */
+
+@mixin gradient-background($start-color, $end-color) {
+  background: linear-gradient(to bottom, $start-color, $end-color);
+}

@@ -1,0 +1,52 @@
+.hero h1 {
+  @include heading-l;
+  padding-bottom: 26px;
+}
+.hero p {
+  @include body-sr;
+  padding-bottom: 24px;
+}
+.hero button {
+  @include gradient-background($orange, $dark-pink);
+  @include button;
+  &:hover {
+    @include gradient-background($orange-op, $dark-pink-op);
+  }
+}
+.hero-img {
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .hero {
+    display: flex;
+  }
+  .hero-img {
+   display: none; 
+  }
+  .hero-img-lg {
+    display: block;
+    position: absolute;
+    top: -90px;
+    right: -300px;
+  }
+  .hero-left {
+    width: 60%;
+    
+  }
+  
+}
+@media (min-width: 1000px) {
+  .hero-img-lg {
+    top: -140px;
+    right: -450px;
+  }
+  .hero-left {
+    h1 {
+      @include heading-xl;
+    }
+    p {
+      width: 45ch;
+    }
+  }
+}

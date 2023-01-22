@@ -1,0 +1,16 @@
+/* variables and functions */
+@import 'variables';
+@import 'mixins';
+
+
+/* Base & Layout */
+@import 'globals';
+
+/* components */
+@import 'header';
+@import 'hero';
+@import 'main-content';
+@import 'footer';
+
+
+/* Utilities */

@@ -1,0 +1,32 @@
+/* Colors */
+
+$grayish-blue: rgba(102, 108, 163, 1);
+$black: rgba(19, 24, 63, 1);
+$black-op: rgba(19, 24, 63, .5);
+$gray: rgba(131, 134, 154, 1);
+$dark-pink:rgba(240, 42, 166, 1); 
+$dark-pink-op:rgba(240, 42, 166, .5); 
+$med-pink: rgb(247, 71, 128, 1);
+$light-pink: rgba(255, 167, 195);
+$orange:rgba(255, 111, 72, 1); 
+$orange-op:rgba(255, 111, 72, .5); 
+$white: rgba(255, 255, 255, 1);
+
+/* Gradient colors */
+
+/* $orange-gradient: linear-gradient( rgba(255, 111, 72, 1),rgba(240, 42, 166, 1));
+$orange-gradient-op: linear-gradient( rgba(255, 111, 72, .5),rgba(240, 42, 166, .5)); 
+$purple-gradient: linear-gradient(rgb(72, 81, 255), rgb(240, 42, 166));
+$purple-gradient-op: linear-gradient(rgba(72, 81, 255, .5), rgba(240, 42, 166, .5)); */
+
+
+/* Borders */
+
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+/* Box shadow */
+
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+/* font-family */
+$arial: 'ariel', san-serif;
