@@ -14,7 +14,7 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
-1.Project documentation/
+1.Project-Documentation/
 package-lock.json
 /node_modules
 README.md
