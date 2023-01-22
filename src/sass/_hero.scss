@@ -1,3 +1,4 @@
+
 .hero h1 {
   @include heading-l;
   padding-bottom: 26px;
@@ -20,6 +21,7 @@
 @media (min-width: 768px) {
   .hero {
     display: flex;
+    padding-bottom: 210px;
   }
   .hero-img {
    display: none; 
@@ -37,9 +39,12 @@
   
 }
 @media (min-width: 1000px) {
+  .hero {
+  padding-bottom: 250px
+  }
   .hero-img-lg {
     top: -140px;
-    right: -450px;
+    right: -480px;
   }
   .hero-left {
     h1 {

@@ -1,0 +1,57 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    padding: 30px 0;
+}
+.card-main {
+    padding: 25px 32px;
+    border-radius: 20px;
+    box-shadow: $base-box-shadow;
+    color: $white;
+    @include gradient-background($orange, $dark-pink);
+    h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+.card {
+    padding: 32px;
+    border-radius: 20px;
+    background: $white;
+    box-shadow: $base-box-shadow;
+    img {
+        margin-top: -60px;
+        padding-bottom: 24px;
+    }
+    h2 {
+        @include heading-s;
+        padding-bottom: 16px;
+    }
+    p {
+
+        @include body-sr;
+        padding-bottom: 24px;
+        cursor: pointer;
+    }
+    a {
+        font-size: 18px;
+        color: $dark-pink;
+    }
+}
+@media (min-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-main {
+    padding: 56px 32px;
+    }
+    
+}
+@media (min-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
